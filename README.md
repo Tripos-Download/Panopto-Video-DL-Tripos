@@ -55,3 +55,7 @@ The python script uses a wrapper for `ffmpeg` to download the hls links. It atta
    - `python tripos-download.py -i Topics-in-Statistical-Theory/src.txt -o Topics-in-Statistical-Theory/ -m 2`
    - We specified the input list of links, output directory and mapping respectively. The mapping specifies which quality of stream the script should use. 0=1920x1080, 1=1352x764, 2=960x540. If not specified, it uses the highest quality one available.
    - `ffmpeg` will be invoked and start downloading everything in `Topics-in-Statistical-Theory/src.txt`.
+
+## Disclaimer
+
+This tool is intended for personal, educational, or research purposes only. Users are responsible for ensuring their use of this script complies with all applicable copyright laws and the terms of service of the Panopto platform. The creators of this script are not responsible for any misuse or copyright infringement. Do not use this tool to distribute or pirate content illegally.
