@@ -9,7 +9,7 @@ This userscript adds a button that fetches the streaming links (*.m3u8) of the l
 		- Enable browser [`Developer Mode`](https://www.tampermonkey.net/faq.php#Q209)
 	- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
 	- [Others](https://www.tampermonkey.net/)  
-2. Install this script from [GreasyFork]([https://greasyfork.org/scripts/423661-panopto-video-dl](https://greasyfork.org/en/scripts/539400-panopto-video-dl-tripos)) or copy the .js code from this repo into *Monkey.
+2. Install this script from [GreasyFork](https://greasyfork.org/en/scripts/539400-panopto-video-dl-tripos) or copy the .js code from this repo into *Monkey.
 
 ## Usage Userscript
 
