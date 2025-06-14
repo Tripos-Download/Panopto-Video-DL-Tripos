@@ -51,7 +51,7 @@ The python script uses a wrapper for `ffmpeg` to download the hls links. It atta
       └── Topics-in-Statistical-Theory/
           └── src.txt
   ```
-4. Now we invoke the python script.
+4. Now we go back to `Tripos-Archive` and invoke the python script.
    - `python tripos-download.py -i Topics-in-Statistical-Theory/src.txt -o Topics-in-Statistical-Theory/ -m 2`
    - We specified the input list of links, output directory and mapping respectively. The mapping specifies which quality of stream the script should use. 0=1920x1080, 1=1352x764, 2=960x540. If not specified, it uses the highest quality one available.
    - `ffmpeg` will be invoked and start downloading everything in `Topics-in-Statistical-Theory/src.txt`.
